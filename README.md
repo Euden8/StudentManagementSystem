@@ -1,0 +1,1 @@
+This is a C#‑based Student Management System built with .NET that manages student data and related operations. It includes  controllers, data models, and migrations, and also has a test project (StudentApi.Tests) holding automated tests for the API. Functions as backend for a CRUD application.
