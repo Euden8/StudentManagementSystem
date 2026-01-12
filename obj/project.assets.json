@@ -34,6 +34,28 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.AspNetCore.OpenApi/10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "2.0.0"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/Microsoft.AspNetCore.OpenApi.targets": {}
+        }
+      },
       "Microsoft.Build/17.7.2": {
         "type": "package",
         "dependencies": {
@@ -669,7 +691,7 @@
           }
         }
       },
-      "Microsoft.OpenApi/3.1.2": {
+      "Microsoft.OpenApi/2.4.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -1173,6 +1195,24 @@
         "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.10.0.1.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.1": {
+      "sha512": "gMY53EggRIFawhue66GanHcm1Tcd0+QzzMwnMl60LrEoJhGgzA9qAbLx6t/ON3hX4flc2NcEbTK1Z5GCLYHcwA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.OpenApi.SourceGenerators.dll",
+        "build/Microsoft.AspNetCore.OpenApi.targets",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
     "Microsoft.Build/17.7.2": {
@@ -2905,10 +2945,10 @@
         "ref/netstandard2.0/Microsoft.NET.StringTools.xml"
       ]
     },
-    "Microsoft.OpenApi/3.1.2": {
-      "sha512": "cwQu2ptITG6G+ZEzNP6n0p/IBoAMc5n4V2aKdixuZkdh3A5nOQ0BTn3t1RYL/fPEny3wbzEAchAbWVWlQNf7Fw==",
+    "Microsoft.OpenApi/2.4.0": {
+      "sha512": "5B+FCDLXgGdv+VELFMsGRRNx5z1YYF5T/HUlngRVHPJ8mHwgBR2cT0RsxPco6E+7casvzo4j6uHKoBgP7S5ciA==",
       "type": "package",
-      "path": "microsoft.openapi/3.1.2",
+      "path": "microsoft.openapi/2.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2919,7 +2959,7 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.3.1.2.nupkg.sha512",
+        "microsoft.openapi.2.4.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
@@ -3582,10 +3622,11 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 10.0.1",
+      "Microsoft.AspNetCore.OpenApi >= 10.0.1",
       "Microsoft.EntityFrameworkCore >= 10.0.1",
       "Microsoft.EntityFrameworkCore.InMemory >= 10.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.1",
-      "Microsoft.OpenApi >= 3.1.2",
+      "Microsoft.OpenApi >= 2.4.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.0",
       "Swashbuckle.AspNetCore >= 10.1.0",
       "xunit.assert >= 2.9.3",
@@ -3639,6 +3680,10 @@
             "target": "Package",
             "version": "[10.0.1, )"
           },
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[10.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[10.0.1, )"
@@ -3655,7 +3700,7 @@
           },
           "Microsoft.OpenApi": {
             "target": "Package",
-            "version": "[3.1.2, )"
+            "version": "[2.4.0, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",

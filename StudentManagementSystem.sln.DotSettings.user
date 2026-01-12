@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AExceptionDispatchInfo_002Ecs_002Fl_003A_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fef7eb68894584c62b1d42863efc2ef251046510_003Fcd_003Fa9386971_003FExceptionDispatchInfo_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d3749ca_002Ddd8a_002D4205_002Da2c6_002Dd196c86f076a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="StudentsControllerTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d3749ca_002Ddd8a_002D4205_002Da2c6_002Dd196c86f076a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="StudentsControllerTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::F00E51D0-4551-4A88-B6D2-CC482FAD4C6E::net10.0::StudentApi.Tests.StudentsControllerTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
@@ -20,8 +20,4 @@
     &lt;TestId&gt;xUnit::F00E51D0-4551-4A88-B6D2-CC482FAD4C6E::net10.0::StudentApi.Tests.StudentsControllerTests.GetStudent_ReturnsStudent_WhenStudentExists&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fcc64053_002Dcb1c_002D4177_002Dac57_002D623113597d04/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="StudentsControllerTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::F00E51D0-4551-4A88-B6D2-CC482FAD4C6E::net10.0::StudentApi.Tests.StudentsControllerTests&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+	</wpf:ResourceDictionary>

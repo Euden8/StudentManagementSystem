@@ -6,6 +6,7 @@
 /Users/eudenajdini/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.csproj.CoreCompileInputs.cache
 /Users/eudenajdini/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.MvcApplicationPartsAssemblyInfo.cs
 /Users/eudenajdini/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+/Users/eudenajdini/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.sourcelink.json
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/appsettings.Development.json
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/appsettings.json
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/obj/project.assets.json
@@ -19,6 +20,7 @@
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentManagementSystem.pdb
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/Humanizer.dll
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/Microsoft.Build.dll
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/Microsoft.Build.Framework.dll
 /Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/Microsoft.Build.Tasks.Core.dll
@@ -148,13 +150,3 @@
 /Users/eudenajdini/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.pdb
 /Users/eudenajdini/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.genruntimeconfig.cache
 /Users/eudenajdini/StudentManagementSystem/obj/Debug/net10.0/ref/StudentManagementSystem.dll
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/appsettings.Development.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/appsettings.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentApi.Tests.deps.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentApi.Tests.runtimeconfig.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentApi.Tests/obj/project.assets.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentApi.Tests/obj/project.packagespec.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentApi.Tests/obj/StudentApi.Tests.csproj.nuget.dgspec.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentManagementSystem.deps.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentManagementSystem.runtimeconfig.json
-/Users/eudenajdini/StudentManagementSystem/bin/Debug/net10.0/StudentApi.Tests/bin/Debug/net10.0/StudentManagementSystem.staticwebassets.endpoints.json

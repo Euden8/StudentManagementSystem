@@ -28,6 +28,17 @@
           }
         }
       },
+      "Microsoft.AspNetCore.OpenApi/10.0.1": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.4.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.1.0",
+            "fileVersion": "10.0.125.57005"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.14.1": {
         "runtime": {
           "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -147,11 +158,11 @@
           "Microsoft.TestPlatform.TestHost": "17.14.1"
         }
       },
-      "Microsoft.OpenApi/3.1.2": {
+      "Microsoft.OpenApi/2.4.0": {
         "runtime": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.1.2.0"
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
           }
         }
       },
@@ -436,7 +447,7 @@
       },
       "Swashbuckle.AspNetCore.Swagger/10.1.0": {
         "dependencies": {
-          "Microsoft.OpenApi": "3.1.2"
+          "Microsoft.OpenApi": "2.4.0"
         },
         "runtime": {
           "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll": {
@@ -529,9 +540,10 @@
       "StudentManagementSystem/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.1",
+          "Microsoft.AspNetCore.OpenApi": "10.0.1",
           "Microsoft.EntityFrameworkCore": "10.0.1",
           "Microsoft.EntityFrameworkCore.InMemory": "10.0.1",
-          "Microsoft.OpenApi": "3.1.2",
+          "Microsoft.OpenApi": "2.4.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
           "Swashbuckle.AspNetCore": "10.1.0",
           "xunit.assert": "2.9.3",
@@ -558,6 +570,13 @@
       "sha512": "sha512-lvyUEBVv7V1/UvGxfOV3a0kyaQatPAU+ZHru7xha6WVOpa+7aJtKehbiu9VpAt/G50FR+hUwL4nTY33ijsCXwA==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/10.0.1",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.10.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gMY53EggRIFawhue66GanHcm1Tcd0+QzzMwnMl60LrEoJhGgzA9qAbLx6t/ON3hX4flc2NcEbTK1Z5GCLYHcwA==",
+      "path": "microsoft.aspnetcore.openapi/10.0.1",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.14.1": {
       "type": "package",
@@ -643,12 +662,12 @@
       "path": "microsoft.net.test.sdk/17.14.1",
       "hashPath": "microsoft.net.test.sdk.17.14.1.nupkg.sha512"
     },
-    "Microsoft.OpenApi/3.1.2": {
+    "Microsoft.OpenApi/2.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cwQu2ptITG6G+ZEzNP6n0p/IBoAMc5n4V2aKdixuZkdh3A5nOQ0BTn3t1RYL/fPEny3wbzEAchAbWVWlQNf7Fw==",
-      "path": "microsoft.openapi/3.1.2",
-      "hashPath": "microsoft.openapi.3.1.2.nupkg.sha512"
+      "sha512": "sha512-5B+FCDLXgGdv+VELFMsGRRNx5z1YYF5T/HUlngRVHPJ8mHwgBR2cT0RsxPco6E+7casvzo4j6uHKoBgP7S5ciA==",
+      "path": "microsoft.openapi/2.4.0",
+      "hashPath": "microsoft.openapi.2.4.0.nupkg.sha512"
     },
     "Microsoft.TestPlatform.ObjectModel/17.14.1": {
       "type": "package",
